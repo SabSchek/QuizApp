@@ -18,6 +18,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: 767px;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
     justify-content: center;
     text-align: center;
     padding: 10%;
@@ -33,6 +34,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: 767px;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
     justify-content: center;
     text-align: center;
     padding: 10%;
@@ -57,6 +59,7 @@ p {
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
         margin: 2px;
         cursor: pointer;
         transition: background 1s, border-radius 0.5s, transform 0.75s;
@@ -80,6 +83,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
     font-size: 16px;
     margin: 2px;
     cursor: pointer;
@@ -90,5 +94,12 @@ p {
   .buttonhide:hover {
     background: rgb(91, 169, 150);
     transform: rotate(360deg); 
-    border-radius: 50px;
+ 
   }
+
+  
+ 
+  
+ 
+ 
+ 

@@ -1,0 +1,11 @@
+.navbar {
+background-color: #59909d;  
+position: sticky;
+display:flex;
+justify-content: space-around;
+max-width: 767px;
+height: 60px;
+position: sticky;
+bottom: 0%;
+
+}

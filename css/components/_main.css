@@ -46,6 +46,7 @@ p {
         margin: 4px 2px;
         cursor: pointer;
         transition: background 1s, border-radius 0.5s, transform 0.75s;
+
   }
 
 .buttonshow:hover {
@@ -54,23 +55,20 @@ p {
 
 }
 
-.buttonshow:
-
 
 .buttonhide
 {
-
-    background-color:;
-    border: none;
-    color: white;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background 1s, border-radius 0.5s, transform 0.75s;
+  background-color: #882e69;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background 1s, border-radius 0.5s, transform 0.75s;
  
   }
 

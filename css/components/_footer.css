@@ -1,0 +1,8 @@
+header{
+background-color:#59909d;  
+position: sticky;
+display:flex;
+justify-content: center;
+max-width: 767px;
+height: 60px;
+}

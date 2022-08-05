@@ -1,7 +1,7 @@
 p {
     font-family: 
     color: white;
-    font-size: 28px;
+    font-size:23px;
     max-width: 767px;
     height: 60px;
     align-items: center;
@@ -15,10 +15,13 @@ p {
 
     grid-template-columns:auto;
     background-color: rosybrown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     max-width: 767px;
     justify-content: center;
     text-align: center;
-    padding: 20px 34px;
+    padding: 10%;
+    margin: 5%
     
   }
 
@@ -27,10 +30,21 @@ p {
   {
     grid-template-columns:auto;
     background-color: rosybrown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     max-width: 767px;
     justify-content: center;
     text-align: center;
-    padding: 20px 34px;
+    padding: 10%;
+    margin: 5%; 
+  }
+
+  .answerstyle
+
+  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(219, 232, 81)
   }
 
   .buttonshow {
@@ -43,7 +57,7 @@ p {
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
+        margin: 2px;
         cursor: pointer;
         transition: background 1s, border-radius 0.5s, transform 0.75s;
   }
@@ -54,13 +68,12 @@ p {
 
 }
 
-.buttonshow:
 
 
 .buttonhide
 {
 
-    background-color:;
+    background-color:#882e69;65515e
     border: none;
     color: white;
     padding: 20px 34px;
@@ -68,7 +81,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px;
     cursor: pointer;
     transition: background 1s, border-radius 0.5s, transform 0.75s;
  
@@ -77,4 +90,5 @@ p {
   .buttonhide:hover {
     background: rgb(91, 169, 150);
     transform: rotate(360deg); 
-  
+    border-radius: 50px;
+  }

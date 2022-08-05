@@ -70,5 +70,11 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: background 1s, border-radius 0.5s, transform 0.75s;
+ 
+  }
 
-}
+  .buttonhide:hover {
+    background: rgb(91, 169, 150);
+    transform: rotate(360deg); 
+  

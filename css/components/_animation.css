@@ -1,0 +1,56 @@
+.answercard
+
+{
+  grid-template-columns:auto;
+  background-color: rosybrown;
+  max-width: 767px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 34px;
+}
+
+.buttonshow {
+
+      background-color: #882e69;
+      border: none;
+      color: rgb(255, 255, 255);
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition: background 1s, border-radius 0.5s, transform 0.75s;
+}
+
+.buttonshow:hover {
+background: rgb(91, 169, 150);
+transform: rotate(360deg); 
+
+}
+
+.buttonshow:
+
+
+.buttonhide
+{
+
+  background-color:;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background 1s, border-radius 0.5s, transform 0.75s;
+
+}
+
+.buttonhide:hover {
+  background: rgb(91, 169, 150);
+  transform: rotate(360deg); 
+

@@ -1,11 +1,27 @@
 .navbar {
-background-color: #59909d;  
-position: sticky;
-display:flex;
-justify-content: space-around;
-max-width: 767px;
-height: 60px;
-position: sticky;
-bottom: 0%;
+  background-color: #59909d;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+}
 
+.icon {
+  cursor: pointer;
+  transition: background 0.4s, border-radius 0.1s, transform 0.75s;
+}
+
+.icon--round {
+  border-radius: 50%;
+}
+
+.navicon--blue:hover {
+  background: rgb(91, 169, 150);
+  border-radius: 50%;
+}
+
+.navicon--rotate:hover {
+  transform: rotate(360deg);
 }

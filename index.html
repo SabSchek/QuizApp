@@ -8,25 +8,53 @@
     <title>QuizApp</title>
 </head>
 <body>
-<header>
-    <h1>QuizApp</h1>
-</header>
+    <header>
+     <h1>QuizApp</h1>
+    </header>
 
-<main class="questioncard">
-    <section class="questioncard1">
-        <p>What property flips </br>
-            the axes in flexbox?</p>
-        <a href="answer.html" class="buttonshow buttonshow--rotate">Show Answer</a>
-    </section>
+    <main class="cards__container">
+        <section class="questioncard">
+            <div class="icon">
+                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
+            </div>
+            <p>What property flips the axes in flexbox?</p>
+            <button class="answer__button" role="button">show answer</button>
 
-</main>
-    <nav class="navbar">
-        <img class="navicon1" src="assets/icons/icons8-home-64.png" href="">
-        <img class="navicon2" src="assets/icons/icons8-bookmark-64-2.png" href="bookmarks.html">
-        <img class="navicon3" src="assets/icons/icons8-benutzer-60.png">
-    
-    </nav>
+            <p class="answerstyle" hidden>flex-direction</p>
+        </section>
+        <section class="questioncard">
+            <div class="icon">
+                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
+            </div>
+            <p>What property flips the axes in flexbox?</p>
+            <button class="answer__button" role="button">show answer</button>
 
-<footer></footer>
+            <p class="answerstyle" hidden>flex-direction</p>
+        </section>
+        <section class="questioncard">
+            <div class="icon">
+                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
+            </div>
+            <p>What property flips the axes in flexbox?</p>
+            <button class="answer__button" role="button">show answer</button>
+
+            <p class="answerstyle" hidden>flex-direction</p>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="navbar">
+        <a href="./index.html">
+            <img class="icon icon--round navicon--rotate navicon--blue" src="assets/icons/icons8-home-64.png">
+        </a>
+        <a href="./bookmarks.html">
+            <img class="icon navicon--rotate"  src="assets/icons/icons8-bookmark-64-2.png">
+        </a>
+        <a href=""> 
+            <img class="icon icon--round navicon--rotate navicon--blue" src="assets/icons/icons8-benutzer-60.png">
+        </a>
+       
+        </nav>
+    </footer>
 </body>
 </html>

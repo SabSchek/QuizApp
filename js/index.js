@@ -1,5 +1,5 @@
 import toggleAnswer from "./_quizcard.js";
-import toggleBookmark from "./_bookmark.js";
+import toggleBookmarks from "./_bookmark.js";
 
 toggleAnswer(); 
-toggleBookmark(); 
+toggleBookmarks(); 

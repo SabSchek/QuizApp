@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="./js/index.js" type="module" defer></script>
+        <!-- nice to have? -->
+    <link rel="shortcut icon" href="#"> 
 
     <title>QuizApp</title>
 </head>
@@ -14,50 +16,28 @@
     <header>
      <h1>QuizApp</h1>
     </header>
-assets/icons/icons8-bookmark-64.png
+
     <main>
+          
      <div class="cards__container">
-
         <section class="questioncard" data-js="quizcard">
-            <div class="icon" >
-                <img src="" href="bookmarks.html">
-            </div>
+            <img class="icon" data-js="bookmarkicon" src="assets/icons/Icons8-bookmark-64.png">
             <p>What property flips the axes in flexbox?</p>
             <button class="answer__button" role="button" data-js="button">show answer</button>
-
             <p class="answerstyle hidden" data-js="answer">flex-direction</p>
-        </section>
-        <section class="questioncard" data-js="quizcard">
-            <div class="icon" data-js="bookmarkicon">
-                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
-            </div>
-            <p>What property flips the axes in flexbox?</p>
-            <button class="answer__button" role="button" data-js="button">show answer</button>
-
-            <p class="answerstyle hidden" data-js="answer">flex-direction</p>
-        </section>
-        <section class="questioncard" data-js="quizcard">
-            <div class="icon" data-js="bookmarkicon">
-                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
-            </div>
-            <p>What property flips the axes in flexbox?</p>
-            <button class="answer__button" role="button" data-js="button">show answer</button>
-
-            <p class="answerstyle hidden"  data-js="answer">flex-direction</p>
         </section>
      </div>  
+
      <div class="hidden">  <!-- bookmark section -->
         <section class="questioncard" data-js="quizcard">
-            <div class="icon" data-js="bookmarkicon">
-                <img src="assets/icons/icons8-bookmark-64.png" href="bookmarks.html">
-            </div>
-                <p>this is a bookmark</p>
-                    <button class="answer__button" role="button" data-js="button">show answer</button>
-
-                        <p class="answerstyle hidden"  data-js="answer">hello</p>
-                            <!-- bookmark section -->
-     </div>
-
+        <div class="icon" data-js="bookmarkicon">
+        <img src="assets/icons/Icons8-bookmark-64.png" href="bookmarks.html">
+        </div>
+        <p>this is a bookmark</p>
+        <button class="answer__button" role="button" data-js="button">show answer</button>
+        <p class="answerstyle hidden"  data-js="answer">hello</p>
+    </div>                       <!-- bookmark section -->
+                    
      <div class="hidden"> <!-- profile section -->
                         
      </div> 

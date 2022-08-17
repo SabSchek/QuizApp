@@ -6,11 +6,11 @@
 }
 
 .questioncard {
-  background-color: rgb(148, 143, 188);
+  background-color: rgb(101, 100, 107);
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   max-width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+  box-shadow: rgba(88, 86, 86, 0.7) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,12 +33,12 @@ p {
 .answerstyle {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  color: rgb(219, 232, 81);
+  color: rgb(152, 143, 163);
 }
 
 .answer__button {
   border-radius: 4px;
-  background-color: #4e4653;
+  background-color: #55595f;
   border: none;
   color: #f1f1f1;
   text-align: center;

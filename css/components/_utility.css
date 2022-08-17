@@ -1,3 +1,8 @@
 .hidden {
   display: none !important;
 }
+
+.profile_pic {
+  border-radius: 80%;
+  size: 50px;
+}

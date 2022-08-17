@@ -1,0 +1,51 @@
+.profile_container {
+  margin: 60px;
+  justify-content: center;
+}
+
+.profile_card {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.profile_pic {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  margin: 1rem;
+  box-shadow: rgba(37, 20, 20, 0.7) 0px 5px 15px;
+}
+
+.profile_name {
+  font-size: 30px;
+  margin: 10px;
+  padding: 0%;
+}
+
+.contact_button {
+  border-radius: 4px;
+  background-color: #55595f;
+  border: none;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 20px;
+  width: 120px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.contact_button:hover {
+  background: rgb(91, 169, 150);
+}
+
+.githubicon {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
